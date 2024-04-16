@@ -10,4 +10,8 @@
 
 Virtual texture
 
-### 1.2 Light
+### 1.3 Sky
+
+#### Volume Rendering Equation
+
+
