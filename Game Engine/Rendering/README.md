@@ -12,6 +12,8 @@ Virtual texture
 
 ### 1.2 Sky
 
+#### Transimittance
+
 #### Scatter
 
 ### 1.3 Cloud
