@@ -10,8 +10,10 @@
 
 Virtual texture
 
-### 1.3 Sky
+### 1.2 Sky
 
-#### Volume Rendering Equation
+#### Scatter
+
+### 1.3 Cloud
 
 
