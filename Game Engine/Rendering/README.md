@@ -18,4 +18,11 @@ Virtual texture
 
 ### 1.3 Cloud
 
+### 1.4 Fog
+
+## 2 Anti-Aliasing
+
+### TAA
+Use the pervious frame
+
 
