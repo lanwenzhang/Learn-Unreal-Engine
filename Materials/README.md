@@ -7,7 +7,10 @@ Real-world materials are not darker than 20 and not brighter than 240
 
 Use real-world measurements or capatured data for best results
 
-## 2 Matalic
+## 2 Metalic
+### Non-metalic
+
+### Metalic
 
 ## 3 Specular
 Non-metal material surfaces reflect about 4% of light
@@ -15,6 +18,7 @@ Non-metal material surfaces reflect about 4% of light
 0.5 represents 4% reflection
 
 ## 4 Roughness
+Represent the roughness of the surface at a microscopic scale
 
 ## 5 Emissive Color
 
