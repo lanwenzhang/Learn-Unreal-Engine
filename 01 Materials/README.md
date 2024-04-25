@@ -26,3 +26,6 @@ Represent the roughness of the surface at a microscopic scale
 Defines the shape of the surface
 
 Each pixel represents a vector that indicates the direction that the surface is facing
+
+## 7 Ambient Occlusion
+Only effective when the global illumination is activated
