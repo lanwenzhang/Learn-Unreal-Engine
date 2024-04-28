@@ -29,3 +29,16 @@ Each pixel represents a vector that indicates the direction that the surface is 
 
 ## 7 Ambient Occlusion
 Only effective when the global illumination is activated
+
+## 8 Float
+### One float
+for the channel that needs single value: metalic, specular and roughness
+
+### Two float
+Store UV
+
+### Three float
+Store RGB
+
+### Four float
+Store RGB α
