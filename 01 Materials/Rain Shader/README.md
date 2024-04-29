@@ -21,4 +21,10 @@ Use water specular and roughness value to interporlate with the material default
 Add *wet node* as the α for interporlation
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/fcac4cb0-105b-4031-8b59-1a3dc4adaa1e)
 
+## 2 Rain Drop
 
+## 3 Rain Drip
+
+## 4 Rain Ripple
+
+## 5 Rain Puddle
