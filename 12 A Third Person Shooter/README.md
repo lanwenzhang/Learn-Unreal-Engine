@@ -1,6 +1,6 @@
 # A Third Person Shooter
 
-## Showcase
+## Demo
 
 ## 1 Animation
 ### 1.1
