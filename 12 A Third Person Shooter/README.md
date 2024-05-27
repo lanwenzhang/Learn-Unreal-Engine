@@ -45,16 +45,49 @@ Ignore the weapon owner in case that it is hitted by the line
 
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/be1d2b88-3149-48c9-9ef5-a244cc02a446)
 
+Link the weapon with character animation: If the character pick up the weapon, the rifle mode will be triggered. Besides, the weapon is attached to the character.
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/848c93b2-3464-4cfb-80f8-d50b421cebc1)
+
+
+If the character shoot, the fire mode will be triggered. After 3 seconds, it goes back to the rifle mode.
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/7d62dc52-6f5b-4587-a6d8-d66b129480c4)
 
 ### 2.2 Reload
 If the current ammo is smaller than the max ammo and the mag is larger than zero. The ammo can be reload
 
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/a2a2beb8-fdf0-4b5e-bc96-40062e813953)
 
+
 ### 2.3 Health
+Each ammo that hits on the character can cause ten decrements on the health. 
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/fa757adb-903d-44ec-8984-b3bc01817095)
+
+
+The maximum health is 100. If the health is equal to zero, the character will die.
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/9370cb8b-5483-4805-aad1-02232b51be99)
 
 
 ## 3 Artificial Intelligence
+Enemy character is controlled by AI controller. With the behavior tree, they are able to wander, chase and shoot the player.
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/797a1e8a-9988-4545-89c6-5a478c9fe7bd)
+
+### 3.1 Wander
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/bd3362fd-e7c1-4d91-8bbe-f6ef47373f0a)
+
+### 3.2 Chase
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/7e10414a-10da-4b48-8e7b-b4fc558dfd38)
+
+
+### 3.3 Shoot
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/abb175cd-b0c6-44e8-8959-10e0f305a7c3)
 
 
 ## 4 UI
@@ -84,10 +117,20 @@ Put the sight icon on the center of screen for aiming
 #### 4.2.2 Health Bar
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/eb456bf7-3b51-40da-9d6d-0ae1b9759381)
 
+Set the text as a variable and link with the character blueprint
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/c46c4d14-4342-44dd-a77a-f8b987b021c5)
+
 #### 4.2.3 Weapon Info
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/bbc20b4b-923e-4469-b453-d803a90ac110)
 
+Set the text as a varaiable and link with weapon blueprint
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/aa66c480-f3c9-4e1d-be73-67db02c3b82c)
+
 #### 4.3 Enemy Info
+
+
 
 ## 5 Environment
 ### 5.1 Winter Scene
