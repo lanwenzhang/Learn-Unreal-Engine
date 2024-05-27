@@ -117,19 +117,25 @@ Put the sight icon on the center of screen for aiming
 #### 4.2.2 Health Bar
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/eb456bf7-3b51-40da-9d6d-0ae1b9759381)
 
-Set the text as a variable and link with the character blueprint
+Set the text as a variable and link it with the character blueprint
 
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/c46c4d14-4342-44dd-a77a-f8b987b021c5)
 
 #### 4.2.3 Weapon Info
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/bbc20b4b-923e-4469-b453-d803a90ac110)
 
-Set the text as a varaiable and link with weapon blueprint
+Set the text as a varaiable and link it with weapon blueprint
 
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/aa66c480-f3c9-4e1d-be73-67db02c3b82c)
 
 #### 4.3 Enemy Info
+Create another widget blueprint for enemy health bar
 
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/73c5ddb0-8bd6-4941-8ba4-bf45fe5a315d)
+
+Link it with the character blueprint
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/1fd71e4c-6fe6-4a29-83a0-912a65b63e94)
 
 
 ## 5 Environment
@@ -137,13 +143,31 @@ Set the text as a varaiable and link with weapon blueprint
 Download asset "Automotive Winter Scene" from Epic Game Marketplace and use it for the starter level and main level
 
 ### 5.2 Visual Effects
-Create snow particle effects in Nigra
+#### 5.2.1 Snow
+Create snow effects by using the "fountain particle effect". The parameter is as follows:
+
+Make it falling by using negative values
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/a01bb3a6-b025-4932-b2a1-5b39873003f5)
+
+Increase the spawn rate
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/929cf920-65ff-435b-95d8-106ff9f5e446)
+
+Increase the lifecyle
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/a8721eb3-2521-46ab-b77f-8bd6899b7448)
+
+### 5.2.2 Fire Effect
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/873d8f7b-75e7-4198-8180-5bb34ce08a85)
 
 ### 5.3 Sound
-#### 5.3.1 Fire 
-
+#### 5.3.1 Fire Sound
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/59316147-3e6c-4a06-a1b5-3693aec1dfbb)
 
 #### 5.3.2 Background Music
 Use the BGM from famous Chinese TV series "Drawing Sword".
+
+![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/150f8c4b-72fa-4f42-94aa-1f545cc1b134)
 
 
