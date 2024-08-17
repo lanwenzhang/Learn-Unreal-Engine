@@ -1,7 +1,9 @@
 # Rain Shader
 Create a rain shader by referring to [Ben Cloward tutorial](https://www.youtube.com/watch?v=fYGOZYST-oQ&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=13)
 
-## Result
+## Demo
+
+https://github.com/user-attachments/assets/34d88267-a452-4c0c-b7c6-ec9863acce33
 
 ## 1 Rain Wetness
 
@@ -22,9 +24,3 @@ Add *wet node* as the α for interporlation
 ![image](https://github.com/lanwenzhang/Learn-Unreal-Engine/assets/86000552/fcac4cb0-105b-4031-8b59-1a3dc4adaa1e)
 
 ## 2 Rain Drop
-
-## 3 Rain Drip
-
-## 4 Rain Ripple
-
-## 5 Rain Puddle
